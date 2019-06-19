@@ -53,7 +53,7 @@ class WebpackZipBuild {
         archive.pipe(fs.createWriteStream(`${output}.${ext}`));
       }
       if (options.entries) {
-        options.entries.forEach(() => {
+        options.entries.forEach(entry => {
           archive.glob(entry);
         });
       } else {

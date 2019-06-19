@@ -1,6 +1,6 @@
 {
   "name": "webpack-zip-build",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webpack plugin to zip files after build",
   "main": "index.js",
   "repository": "https://github.com/m1guelpf/webpack-zip-build",
