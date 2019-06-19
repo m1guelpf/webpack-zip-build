@@ -53,7 +53,9 @@ WebpackZipBuild.prototype.apply = function (compiler) {
     }
 
     if (options.entries) {
-      archive.glob(e.src);
+      foreach (entry in options.entries) {
+        archive.glob(entry);
+      }
     } else {
       for (let asset in compiler.assets) {
         if (compiler.assets.hasOwnProperty(asset)) {
