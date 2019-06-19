@@ -1,0 +1,12 @@
+{
+  "name": "webpack-zip-build",
+  "version": "1.0.0",
+  "description": "Webpack plugin to zip files after build",
+  "main": "index.js",
+  "repository": "https://github.com/m1guelpf/webpack-zip-build",
+  "author": "Miguel Piedrafita <soy@miguelpiedrafita.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^1.3.0"
+  }
+}
